@@ -1,0 +1,19 @@
+{
+  "name": "id-colorizer",
+  "version": "0.1.0",
+  "description": "Tool to get random color based on id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KilJH/id-colorizer.git"
+  },
+  "author": "Jinhyeok Kil (eveningminus_)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KilJH/id-colorizer/issues"
+  },
+  "homepage": "https://github.com/KilJH/id-colorizer#readme"
+}
