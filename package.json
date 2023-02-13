@@ -2,10 +2,7 @@
   "name": "id-colorizer",
   "version": "0.1.0",
   "description": "Tool to get random color based on id",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KilJH/id-colorizer.git"
@@ -13,7 +10,20 @@
   "author": "Jinhyeok Kil (eveningminus_)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KilJH/id-colorizer/issues"
+    "url": "https://github.com/KilJH/id-colorizer/issues",
+    "email": "roadjh0201@gmail.com"
   },
-  "homepage": "https://github.com/KilJH/id-colorizer#readme"
+  "homepage": "https://github.com/KilJH/id-colorizer#readme",
+  "keywords": ["color", "colorizer"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-import": "^2.27.5",
+    "typescript": "^4.9.5"
+  }
 }
